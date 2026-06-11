@@ -12,6 +12,20 @@
 Mert YERTÜRÜN 
 Std No: 20232022906
 
+# About Project 
+
+Since this system is designed as an advanced enterprise solution for Task & Project Management (TaskFlow),
+the core software engineering components have been dynamically 
+mapped to meet the standard e-commerce evaluation criteria as detailed below:
+
+Front page (Dashboard / Landing View): The main analytical dashboard interface that welcomes authenticated users with real-time statistics, metrics counters, and dynamic system overviews.
+
+Front Product list & Detail (Task Management Core): Mapped directly to the Tasks module. The Product List corresponds to the advanced interactive task table (tasks.index), while the Product Detail corresponds to the comprehensive task inspection log (tasks.show), where file attachments, descriptions, and metadata are rendered.
+
+Shopping Cart & Order (Task Lifecycle & Assignment): The Shopping Cart functionality is represented by the instant client-side search engine and status filtering widgets that dynamically process tasks. The Order Lifecycle is mapped to the task assignment logic, where administrators dispatch tasks to specific developers, initiating the production workflow.
+
+Admin panel & Category (Project & Role Infrastructure): The Admin Panel is fully protected by custom multi-role verification middleware (RoleMiddleware), restricting sensitive CRUD mechanisms to authorized Admin and Manager profiles. The Category architecture is mapped perfectly to the Projects database model; just as products belong to categories, every task is structurally bound to a parent project.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
